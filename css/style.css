@@ -1,0 +1,504 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* header section css */
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/banner.png) center center no-repeat;
+    background-size: cover;
+
+}
+
+.cus-height {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+header .navbar-brand img {
+    width: 130px;
+}
+
+.nav-item {
+    margin: 15px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-item .active {
+    color: white !important;
+}
+
+.banner-part h5 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.banner-part h1 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.banner-part p {
+    width: 91%;
+    line-height: 26px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.btns a {
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btns .btn-primary {
+    background: #008ed6;
+    border: 1px solid #008ed6;
+}
+
+.btns .btn-primary:hover {
+    background: transparent;
+    border: 1px solid white;
+    transition: 0.6s;
+}
+
+.btns .btn-info {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.btns .btn-info:hover {
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    color: #fff;
+    transition: 0.6s;
+}
+
+/* Feature part css */
+.feature {
+    width: 100%;
+    padding: 60px 0px;
+    border-bottom: 1px solid #999;
+}
+
+.feature h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.feature h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.underline {
+    margin: 30px auto 50px;
+    width: 80px;
+    background: #578bd1;
+    height: 3px;
+}
+
+.feature .content i {
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.feature .content {
+    margin: 0px 20px;
+}
+
+.feature .content h5 {
+    font-size: 22px;
+    color: #1a1a1a;
+}
+
+.feature .content p {
+    font-weight: 300;
+    line-height: 25px;
+    color: #999;
+}
+
+/* beautiful section css */
+.beautiful-section {
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.c-align {
+    text-align: right;
+}
+
+.beautiful-section .b-inner h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+    margin-top: 60px;
+}
+
+.beautiful-section .b-inner h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.beautiful-section .b-inner .underline {
+    margin: 30px 0px 50px;
+    width: 80px;
+    background: #578bd1;
+    height: 3px;
+}
+}
+
+.beautiful-section .b-inner p {
+    font-weight: 300;
+    line-height: 25px;
+    color: #999;
+    width: 88%;
+}
+
+.beautiful-section ul {
+    list-style-type: none;
+    margin: 30px 0px 0px;
+    padding: 0px;
+}
+
+.beautiful-section ul li i {
+    color: #008ed6;
+    margin-right: 5px;
+}
+
+.beautiful-section ul li span {
+    color: #1a1a1a;
+    margin-bottom: 6px;
+}
+
+/* super section css */
+
+.super-section {
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+.super-section .content-inner h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+    margin-top: 60px;
+}
+
+.super-section .content-inner h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.super-section .content-inner .underline {
+    margin: 30px 0px 50px;
+    width: 80px;
+    background: #578bd1;
+    height: 3px;
+}
+
+.super-section .content-inner p {
+    font-weight: 300;
+    line-height: 25px;
+    color: #999;
+    width: 84%
+}
+
+/* testimonial css */
+.testimonial-section {
+    width: 100%;
+    padding: 50px 0px;
+    background: url(../img/test.png) center center no-repeat;
+    background-size: cover;
+}
+
+.testimonial-section .title {
+    text-align: center;
+    color: white;
+}
+
+.testimonial-section .title h6 {
+    text-transform: uppercase;
+    color: #008ed6;
+
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+
+}
+
+.testimonial-section .title h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.testimonial-section .title .underline {
+    margin: 30px auto 50px;
+    width: 80px;
+    background: #578bd1;
+    height: 3px;
+}
+
+.testimonial-section .owl-carousel {
+    color: white;
+}
+
+.testimonial-section .intro {
+    display: flex;
+}
+
+.testimonial-section .profile img {
+    width: 55px !important;
+    margin-right: 15px;
+}
+
+.testimonial-section .items p {
+    width: 80%;
+    color: rgb(230, 230, 230);
+    font-style: italic;
+    font-weight: 200;
+}
+
+.testimonial-section .intro .designation h5 {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.testimonial-section .intro .designation h6 {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* calltoaction css start */
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 120px !important;
+}
+
+.calltoaction {
+    width: 100%;
+    padding: 50px 0px;
+    background: #1a1a1a;
+}
+
+.calltoaction h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.calltoaction h2 span {
+    font-weight: 400;
+    color: rgb(168, 168, 168);
+}
+
+.calltoaction .btns {
+    text-align: right;
+}
+
+/* pricing css start */
+.pricing-section {
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.pricing-section h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.pricing-section h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.pricing-section .p-card {
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    padding: 22px 0px 30px;
+}
+
+.pricing-section .p-card .pc-header {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 10px 0px 20px;
+}
+
+.pricing-section .p-card .pc-header h4 {
+    padding: 0px 22px;
+    font-size: 20px;
+    font-weight: 700 !important;
+}
+
+.pricing-section .p-card:hover h4 {
+    color: #008ed6;
+    transition: 0.7s;
+}
+
+.pricing-section .p-card .pc-body {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 12px 0px 0px;
+
+}
+
+.pricing-section .p-card:hover .pc-body {
+    background: #008ed6;
+    transition: 0.7s;
+}
+
+.pricing-section .p-card .pc-body h2 {
+    font-size: 40px;
+    font-weight: 700;
+    transition: 0.7s;
+}
+
+.pricing-section .p-card:hover .pc-body h2 {
+    color: #fff;
+    transition: 0.7s;
+}
+
+.pricing-section .p-card .pc-footer {
+    padding: 30px 0px 0px;
+}
+
+.pricing-section .p-card .pc-footer p {
+    padding: 0px 46px;
+    color: #999999;
+    line-height: 25px;
+}
+
+.pricing-section .p-card:hover .pc-body p {
+    color: #fff;
+    transition: 0.7s;
+}
+
+.pricing-section .p-card .pc-footer p a {
+    text-decoration: none;
+}
+
+.pricing-section .p-card .pc-footer .btns {
+    margin-top: 35px;
+}
+
+.pricing-section .p-card .pc-footer .btns .btn-primary {
+    padding: 6px 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid #dfdfdf;
+    text-transform: uppercase;
+    background: transparent;
+    color: #008ed6;
+    transition: 0.7s;
+}
+
+.pricing-section .p-card .pc-footer .btns .btn-primary:hover {
+    border: 1px solid #008ed6;
+    background: #008ed6;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.contact-section {
+    width: 100%;
+    padding: 60px 0px;
+    background-color: #ededed;
+    ;
+}
+
+.contact-section h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.contact-section h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.contact-section .i-box i {
+    font-size: 29px;
+    color: #578bd1;
+    padding-bottom: 10px;
+}
+
+.contact-section .i-box p {
+    color: #999999;
+}
+
+form {
+    width: 64%;
+    margin: 90px auto 0px;
+    background-color: #000;
+}
+
+form .form-inner {
+    display: flex;
+    padding: 70px 35px;
+}
+
+form .form-inner .left {
+    flex-basis: 50%;
+    margin-right: 10px;
+}
+
+form .form-inner .right {
+    flex-basis: 50%;
+    margin-left: 10px;
+}
+
+input {
+    padding: 10px 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+textarea {
+
+    padding: 13px 9px;
+    width: 100%;
+    height: 137px;
+    border-radius: 9px;
+    margin-bottom: 2px;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+}
